@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CyberDude Internship Profiles 🎉 [In Development](https://cyberdude-internship-profiles.netlify.app)
 
-## Getting Started
+[![Stars](https://img.shields.io/github/stars/anburocky3/cyberdude-internship-profiles)](https://github.com/anburocky3/cyberdude-internship-profiles)
+[![Forks](https://img.shields.io/github/forks/anburocky3/cyberdude-internship-profiles)](https://github.com/anburocky3/cyberdude-internship-profiles)
+[![GitHub license](https://img.shields.io/github/license/anburocky3/cyberdude-internship-profiles)](https://github.com/anburocky3/cyberdude-internship-profiles)
+![Anbuselvan Rocky Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fanburocky3%2Fcyberdude-internship-profiles)
+[![Support Server](https://img.shields.io/discord/742347296091537448.svg?label=Discord&logo=Discord&colorB=7289da)](https://discord.gg/6ktMR65YMy)
+[![Cyberdude youtube](https://img.shields.io/youtube/channel/subscribers/UCteUj8bL1ppZcS70UCWrVfw?style=social)](https://www.youtube.com/c/cyberdudenetworks)
 
-First, run the development server:
+Simple directory to see all the profiles related to cyberdude internship programs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#### Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot](./screenshots/1.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎉 Check it yourself!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+| 🚧 Build Status  | [![Netlify Status](https://api.netlify.com/api/v1/badges/778f756e-2243-4e78-b97f-93da60429e74/deploy-status)](https://app.netlify.com/sites/cyberdude-internship-profiles/deploys) |
+| ---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✅ Live Website: | https://cyberdude-internship-profiles.netlify.app                                                                                                                                  |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 😎 Okay! How to Contribute?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. [Fork this repository](https://github.com/anburocky3/cyberdude-internship-profiles/fork). Currently no contribution guide available.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### License: [MIT](./LICENSE) (Do whatever you want!)
 
-## Deploy on Vercel
+### Author:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Mr. Anbuselvan Rocky](https://fb.me/anburocky3)
