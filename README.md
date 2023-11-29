@@ -1,4 +1,4 @@
-# CyberDude Internship Profiles 🎉 [In Development](https://cyberdude-internship-profiles.netlify.app)
+# CyberDude Internship Profiles 🎉 [In Development](https://cyberdude-internship-tracker.vercel.app)
 
 [![Stars](https://img.shields.io/github/stars/anburocky3/cyberdude-internship-profiles)](https://github.com/anburocky3/cyberdude-internship-profiles)
 [![Forks](https://img.shields.io/github/forks/anburocky3/cyberdude-internship-profiles)](https://github.com/anburocky3/cyberdude-internship-profiles)
@@ -15,9 +15,10 @@ Simple directory to see all the profiles related to cyberdude internship program
 
 ## 🎉 Check it yourself!
 
-| 🚧 Build Status  | [![Netlify Status](https://api.netlify.com/api/v1/badges/778f756e-2243-4e78-b97f-93da60429e74/deploy-status)](https://app.netlify.com/sites/cyberdude-internship-profiles/deploys) |
+| 🚧 Build Status | ![GitHub deployments](https://img.shields.io/github/deployments/anburocky3/cyberdude-internship-profiles/production?logo=vercel&label=Build)
+|
 | ---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ✅ Live Website: | https://cyberdude-internship-profiles.netlify.app                                                                                                                                  |
+| ✅ Live Website: | https://cyberdude-internship-tracker.vercel.app |
 
 ---
 
