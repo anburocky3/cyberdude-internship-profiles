@@ -2,6 +2,8 @@ import Image from "next/image";
 import TheNavbar from "../components/TheNavbar";
 import memberData from "../data/index.json";
 import { Button } from "../types";
+import Link from "next/link";
+import { FaGithub, FaClipboardList, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 
 const Buttons = ({ href, text, target = "_blank", className }: Button) => (
   <a href={href} target={target} className={className}>
@@ -58,31 +60,56 @@ function Page() {
               </div>
 
               {/* Buttons Division */}
-              <div className="mt-4 flex sm:flex-col md:flex-row md:items-center justify-between md:space-x-3 sm:space-y-3">
+              <div className="mt-4 flex sm:flex-col sm:space-y-3 md:flex-row md:items-center gap-2 justify-center md:space-x-3">
                 {/* Task Button */}
-                <Buttons
+                <Link
                   href={member.tasks}
-                  text="Task"
-                  className="px-5 sm:mt-3 py-1.5 sm:w-full rounded bg-blue-500 text-white text-sm"
-                />
+                  target="_blank"
+                  className="flex justify-center bg-[#9594A5] hover:bg-[#6A6981] items-center px-2 text-white py-1.5 sm:w-full md:mt-3 rounded text-sm hover:transition"
+                >
+                  <FaClipboardList className="mr-1" />
+                  Tasks
+                </Link>
+
 
                 {/* LinkedIn Button */}
-                <Buttons
-                  href={member.linkedIn}
-                  text="LinkedIn"
-                  className="px-5 py-1.5 sm:w-full rounded bg-gray-100 text-gray-900 text-sm hover:transition hover:bg-blue-500 hover:text-white"
-                />
+                <Link
+                href={member.linkedIn}
+                target="_blank"
+                className="flex justify-center bg-[#9594A5] hover:bg-[#6A6981] items-center px-2 text-white py-1.5 sm:w-full rounded text-sm hover:transition"
+                >
+                  <FaLinkedin className="mr-1" />
+                  LinkedIn
+                </Link>
 
-                {/* LinkedIn Button */}
-                <Buttons
-                  href={member.tasks}
-                  text="Facebook"
+                {/* Instagram Button */}
+                <Link
+                href={member.instagram}
+                target="_blank"
+                className="flex justify-center bg-[#9594A5] hover:bg-[#6A6981] items-center px-2 text-white py-1.5 sm:w-full rounded text-sm hover:transition"
+                >
+                <FaInstagramSquare className="mr-1" />
+                Instagram
+                </Link>
+
+                {/* <Buttons
+                  href={member.instagram}
+                  text="Instagram"
                   className="px-5 py-1.5 sm:w-full rounded bg-gray-100 text-gray-900 text-sm hover:transition hover:bg-blue-500 hover:text-white"
-                />
+                /> */}
               </div>
               {/* View GitHub Button */}
-              <div className="bg-white mt-4 py-1 rounded hover:transition hover:bg-blue-500 hover:text-white">
-                <Buttons href={member.github} text="Explore GitHub" />
+              <div className="mt-4 py-1 bg-[#9594A5] hover:bg-[#6A6981] text-white rounded hover:transition">
+                <Link
+                href={member.github}
+                target="_blank"
+                className="flex items-center justify-center"
+                >
+                <FaGithub className="mr-1.5" />
+                GitHub
+                </Link>
+                
+                {/* <Buttons href={member.github} text="Explore GitHub" /> */}
               </div>
             </div>
           </div>
