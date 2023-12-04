@@ -26,7 +26,7 @@ Simple directory to see all the profiles related to cyberdude internship program
 
 1. [Fork this repository](https://github.com/anburocky3/cyberdude-internship-profiles/fork). Currently no contribution guide available.
 
-### License: [MIT](./LICENSE) (Do whatever you want!)
+### License: [MIT](./LICENSE) (Do whatever you want!!)
 
 ### Author:
 
