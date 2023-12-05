@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaGithub, FaUsers } from "react-icons/fa";
+import { FaGithub, FaRandom, FaUsers } from "react-icons/fa";
+import { FaLock, FaStar, FaToolbox } from "react-icons/fa6";
 
 const TheNavbar = () => {
   return (
@@ -28,20 +29,28 @@ const TheNavbar = () => {
               href="/"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
-              <FaUsers className="mr-2 inline-flex" />
-              Interns
+              <FaRandom className="mr-2 inline-flex" />
+              CyPick
             </Link>
             <Link
               href={"/profiles"}
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               <FaUsers className="mr-2 inline-flex" />
-              Profiles
+              Intern Profiles
             </Link>
+            <Link
+              href="/auth/login"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white"
+            >
+              <FaLock className="mr-2 inline-flex" />
+              Login
+            </Link>
+            <span className="h-40 w-1 bg-slate-100" />
             <a
               href="https://github.com/anburocky3/cyberdude-internship-profiles"
               target="_blank"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+              className="px-3 py-2 bg-transparent border rounded text-white hover:bg-indigo-500 hover:border-transparent"
             >
               <FaGithub className="mr-2 inline-flex" />
               Github

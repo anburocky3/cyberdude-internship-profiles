@@ -1,7 +1,7 @@
 import Image from "next/image";
-import TheNavbar from "../components/TheNavbar";
-import memberData from "../data/index.json";
-import { Button } from "../types";
+import TheNavbar from "@/components/TheNavbar";
+import memberData from "@/data/index.json";
+import { Button } from "@/types";
 import Link from "next/link";
 import {
   FaGithub,

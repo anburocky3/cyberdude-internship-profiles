@@ -15,10 +15,9 @@ Simple directory to see all the profiles related to cyberdude internship program
 
 ## 🎉 Check it yourself!
 
-| 🚧 Build Status | ![GitHub deployments](https://img.shields.io/github/deployments/anburocky3/cyberdude-internship-profiles/production?logo=vercel&label=Build)
-|
-| ---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ✅ Live Website: | https://cyberdude-internship-tracker.vercel.app |
+| 🚧 Build Status  | ![GitHub deployments](https://img.shields.io/github/deployments/anburocky3/cyberdude-internship-profiles/production?logo=vercel&label=See+Deployment) |
+| ---------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✅ Live Website: | https://cyberdude-internship-tracker.vercel.app                                                                                                       |
 
 ---
 
