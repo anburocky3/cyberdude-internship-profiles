@@ -20,12 +20,12 @@ function Page() {
   return (
     <main className="p-5 sm:p-10">
       <p className="bg-indigo-200 text-center md:text-xl px-2 py-2 font-semibold mb-10 rounded">
-        🙋‍♂️ Hello viewers, we'd like to inform you that there are currently #
-        {memberData.length} individuals participating in the CyberDude
+        🙋‍♂️ Hello viewers, we&apos;d like to inform you that there are currently
+        #{memberData.length} individuals participating in the CyberDude
         Internships, (
         {memberData.filter((member) => member.gender === "M").length} males and{" "}
         0{memberData.filter((member) => member.gender === "F").length} females.)
-        If you happened to miss these opportunities you're welcome to{" "}
+        If you happened to miss these opportunities you&apos;re welcome to{" "}
         <a
           href="https://www.youtube.com/playlist?list=PL73Obo20O_7grw9hv_lEO6iUPS6gc9ehh"
           target="_blank"
@@ -66,7 +66,6 @@ function Page() {
 
               {/* Buttons Division */}
               <div className="mt-4 flex sm:flex-col sm:space-y-3 md:flex-row md:items-center gap-2 justify-center md:space-x-3">
-                
                 {/* Task Button */}
                 <Link
                   href={member.tasks}
